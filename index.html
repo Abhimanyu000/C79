@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Attendance List</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h3 style="margin-top: 20px; margin-bottom: 20px;">Attendance Sorting</h3>
+            <div>
+                <span>1. </span>
+                <input type="text" id="input0" placeholder="Enter Name"><br>
+                <span>2. </span>
+                <input type="text" id="input1" placeholder="Enter Name"><br>
+                <span>3. </span>
+                <input type="text" id="input2" placeholder="Enter Name"><br>
+                <span>4. </span>
+                <input type="text" id="input3" placeholder="Enter Name"><br>
+                <span>5. </span>
+                <input type="text" id="input4" placeholder="Enter Name"><br>
+            </div>
+            <button onclick="submit()" id="buttonforsubmit">Submit</button>
+            <div style="font-weight: bold;" id="displayfornames"></div><br>
+            <button onclick="sort()" id="buttontosortthenames">Sort Names</button>
+        </center>
+    </body>
+</html>
